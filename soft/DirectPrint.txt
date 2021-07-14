@@ -1,0 +1,3 @@
+https://chrome.google.com/webstore/detail/click-print/plgkocaojdkhnjehoddjmblahknnijdj
+
+shortcut --kiosk-printing
