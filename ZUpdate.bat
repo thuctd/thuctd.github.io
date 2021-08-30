@@ -7,5 +7,5 @@ call git add .
 
 
 call git commit -m 'auto'
-call git push origin master
+call git push
 PAUSE
