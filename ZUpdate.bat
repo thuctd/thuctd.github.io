@@ -1,7 +1,7 @@
 @ECHO OFF
 @echo Started: %date% %time%
 
-call git pull origin master
+call git pull
 
 call git add .
 
