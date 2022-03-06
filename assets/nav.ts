@@ -11,15 +11,6 @@ export const NAV: ENVIDB[] =
    ]
  },
  {
-   label: 'OLI', link: 'xang-dau', dbName: 'xang-dau', dbVer: 3, global: false, guest: false, icon: 'local_gas_station',
-   sub: [
-     { label: 'Danh bạ', link: 'xang-dau/danh-ba', api: 'xd-danh-ba', guest: false, icon: 'contact_page', index: []},
-     { label: 'Cước Vận chuyển', link: 'xang-dau/xd-cuoc-van-chuyen', api: 'xd-cuoc-van-chuyen',  guest: false, icon: 'commute' , index: []},
-     { label: 'Mua bán', link: 'xang-dau/mua-ban', api: 'xd-mua-ban',  guest: false, icon: 'inventory' , index: []},
-     { label: 'Nhân vên giao hàng', link: 'xang-dau/giao-hang', api: 'xd-giao-hang',  guest: false, icon: 'local_shipping' , index: []},
-   ]
- },
- {
    label: 'Nhân sự', link: 'nhansu', dbName: 'nhansu', dbVer: 1, global: true, guest: false, icon: 'person',
    sub: [
      { label: 'Danh sách', link: 'nhansu/nhan-su', api: 'nhan-su', guest: false, icon: 'person' , index: []},
@@ -40,11 +31,12 @@ export const NAV: ENVIDB[] =
    ]
  },
  {
-   label: 'Email', link: 'email', dbName: 'email', dbVer: 1, global: false, guest: false, icon: 'forward_to_inbox',
+   label: 'Email', link: 'email', dbName: 'email', dbVer: 1, global: true, guest: false, icon: 'forward_to_inbox',
    sub: [
      { label: 'Tiền lương', link: 'email/tien-luong', api: 'tien-luong', guest: false, icon: 'email', index: []},
      { label: 'Thông báo', link: 'email/thong-bao', api: 'thong-bao', guest: false, icon: 'attach_email' , index: []},
      { label: 'Điện mặt trời', link: 'email/dien-mat-troi', api: 'dien-mat-troi', guest: false, icon: 'mail_outline' , index: []},
+     { label: 'Thanh toán DMT', link: 'email/thanh-toan', api: 'dmt', guest: false, icon: 'mail_outline' , index: []},
    ]
  },
  {
@@ -66,6 +58,8 @@ export const NAV: ENVIDB[] =
  {
    label: 'Bán hàng', link: 'ban-hang', dbName: 'ban-hang', dbVer: 3, global: false, guest: false, icon: 'paid',
    sub: [
+     { label: 'Quản lý khu vực', link: 'ban-hang/quan-ly', api: 'khu-vuc', guest: false, icon: 'manager' , index: []},
+     { label: 'Quản lý bàn', link: 'ban-hang/quan-ly', api: 'ban', guest: false, icon: 'manager' , index: []},
      { label: 'Quản lý hàng hóa', link: 'ban-hang/hang-hoa', api: 'hang-hoa', guest: false, icon: 'category' , index: ['Barcode', 'NhomHang', 'TonKho']},
      { label: 'Dịch vụ ăn uống', link: 'ban-hang/an-uong', api: 'an-uong', guest: false, icon: 'emoji_food_beverage', index: ['NhomBan', 'DaThanhToan', 'TenBan']},
      { label: 'Dịch vụ bán lẻ', link: 'ban-hang/tap-hoa', api: 'tap-hoa', guest: false, icon: 'shopping_cart', index: ['DaThanhToan']},
@@ -98,13 +92,27 @@ export const NAV: ENVIDB[] =
      { label: 'Đặt tên file', link: 'tienich/ten-file', api: 'ten-file', guest: false, icon: 'insert_drive_file' , index: []},
      { label: 'Nhật ký tiếp xúc', link: 'covid/tiep-xuc', api: 'tiep-xuc', guest: false, icon: 'coronavirus' , index: []},
      { label: 'Merge', link: 'tienich/merge', api: 'merge', guest: false, icon: 'history_edu' , index: []},
-     { label: 'Điều Phối', link: 'tienich/dieu-phoi', api: 'dieu-phoi', guest: false, icon: 'history_edu' , index: []},
    ]
  },
   {
    label: 'Vườn chanh', link: 'vuon-chanh', dbName: 'chanh', dbVer: 1, global: true, guest: false, icon: 'construction',
    sub: [
      { label: 'Vườn chanh', link: 'chanh', api: 'chanh', guest: false, icon: 'description' , index: ['TrangThai', 'NgayGiaoHang']},
+   ]
+ },
+  {
+   label: 'Xăng dầu', link: 'xang-dau', dbName: 'xang-dau', dbVer: 1, global: true, guest: false, icon: 'construction',
+   sub: [
+     { label: 'Điều phối', link: 'xang-dau/dieu-phoi', api: 'dieu-phoi', guest: false, icon: 'description' , index: []},
+   ]
+ },
+   {
+   label: 'Điện lực', link: 'dien-luc', dbName: 'dien-luc', dbVer: 1, global: true, guest: false, icon: 'construction',
+   sub: [
+     { label: 'Lập bảng kê', link: 'dien-luc/dmt-input', api: 'dmt-input', guest: false, icon: 'description' , index: ['TrangThai', 'KyThanhToan', 'TrangThaiHoSo', 'TrangThaiThanhToan', 'TenBangKe']},
+     { label: 'Danh sách bảng kê', link: 'dien-luc/dmt-pay', api: 'dmt-pay', guest: false, icon: 'description' , index: ['TrangThai', 'KyThanhToan','TenBangKe']},
+     { label: 'Khách hàng', link: 'dien-luc/dmt-khach-hang', api: 'dmt-khach-hang', guest: false, icon: 'description' , index: ['MaKhachHang']},
+     { label: 'Lịch sử cập nhật', link: 'dien-luc/dmt-history', api: 'dmt-history', guest: false, icon: 'description' , index: ['MaKhachHang']},
    ]
  }
 ]

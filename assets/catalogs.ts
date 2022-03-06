@@ -167,9 +167,7 @@ export const catData = [
   { "Nhom": "ThuChi", "NoiDung": "Thiết yếu", "GiaTri": 1 },
   { "Nhom": "ThuChi", "NoiDung": "Từ thiện", "GiaTri": 5 },
   { "Nhom": "ThuChi", "NoiDung": "Đầu tư", "GiaTri": 4 },
-  { "Nhom": "TrangThai", "NoiDung": "Đã xong", "GiaTri": 2 },
-  { "Nhom": "TrangThai", "NoiDung": "Đang", "GiaTri": 1 },
-  { "Nhom": "TrangThai", "NoiDung": "Chưa", "GiaTri": 0 },
+
   { "Nhom": "DoiTuongAT", "NoiDung": "Văn hóa doanh nghiệp", "GiaTri": 6 },
   { "Nhom": "DoiTuongAT", "NoiDung": "Vật tư", "GiaTri": 7 },
   { "Nhom": "DoiTuongAT", "NoiDung": "KT lưới điện bậc 2", "GiaTri": 8 },
@@ -193,10 +191,35 @@ export const catData = [
   { "Nhom": "DoiTuongAT", "NoiDung": "Quy định hệ thống đo đếm điện", "GiaTri": 26 },
   { "Nhom": "DoiTuongAT", "NoiDung": "Kỹ thuật đo lường", "GiaTri": 27 },
 
+  { "Nhom": "TrangThai", "NoiDung": "Đã xong", "GiaTri": 2 },
+  { "Nhom": "TrangThai", "NoiDung": "Đang", "GiaTri": 1 },
+  { "Nhom": "TrangThai", "NoiDung": "Chưa", "GiaTri": 0 },
+
+  { "Nhom": "TrangThaiEmail", "NoiDung": "Đã gửi", "GiaTri": 1 },
+  { "Nhom": "TrangThaiEmail", "NoiDung": "Chưa gửi", "GiaTri": 0 },
+
+
   { "Nhom": "TrangThaiGiaoHang", "NoiDung": "Đã thanh toán", "GiaTri": 3 },
   { "Nhom": "TrangThaiGiaoHang", "NoiDung": "Đã giao", "GiaTri": 2 },
   { "Nhom": "TrangThaiGiaoHang", "NoiDung": "Đang giao", "GiaTri": 1 },
   { "Nhom": "TrangThaiGiaoHang", "NoiDung": "Chưa giao", "GiaTri": 0 },
+
+  { "Nhom": "TrangThaiHoatDong", "NoiDung": "Đang hoạt động", "GiaTri": 1 },
+  { "Nhom": "TrangThaiHoatDong", "NoiDung": "Ngưng hoạt động", "GiaTri": 0 },
+
+  { "Nhom": "CoHoaDon", "NoiDung": "Không có HĐ", "GiaTri": 0 },
+  { "Nhom": "CoHoaDon", "NoiDung": "Có HĐ", "GiaTri": 0 },
+
+
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Chưa đủ điều kiện", "GiaTri": -1 },
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Bị trả lại", "GiaTri": 0 },
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "PKD đã kiểm tra", "GiaTri": 1 },
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "PKD đã lập bảng kê", "GiaTri": 2 },
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã duyệt thanh toán", "GiaTri": 3 },
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã thanh toán", "GiaTri": 4 },
+
+  // { "Nhom": "DMTTrangThaiThanhToan", "NoiDung": "Chưa thanh toán", "GiaTri": 0 },
+  // { "Nhom": "DMTTrangThaiThanhToan", "NoiDung": "Đã thanh toán", "GiaTri": 2 },
 
 ]
 
