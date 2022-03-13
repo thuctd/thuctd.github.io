@@ -32,3 +32,9 @@ collector.svctr.zynga.com
 127.0.0.1 media.adtimaserver.vn
 127.0.0.1 api.adtimaserver.vn
 127.0.0.1 log.adtimaserver.vn
+
+# [phimmoi]
+127.0.0.1 d.ants.vn
+127.0.0.1 t.ants.vn
+127.0.0.1 zone.uniad.vn
+127.0.0.1 lg.logging.admicro.vn
