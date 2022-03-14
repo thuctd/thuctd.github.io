@@ -211,12 +211,13 @@ export const catData = [
   { "Nhom": "CoHoaDon", "NoiDung": "Có HĐ", "GiaTri": 0 },
 
 
-  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Chưa đủ điều kiện", "GiaTri": -1 },
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Chưa đủ ĐK", "GiaTri": -1 },
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Bị trả lại", "GiaTri": 0 },
-  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "PKD đã kiểm tra", "GiaTri": 1 },
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đủ ĐK thanh toán", "GiaTri": 1 },
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "PKD đã lập bảng kê", "GiaTri": 2 },
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã duyệt thanh toán", "GiaTri": 3 },
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã thanh toán", "GiaTri": 4 },
+
 
   // { "Nhom": "DMTTrangThaiThanhToan", "NoiDung": "Chưa thanh toán", "GiaTri": 0 },
   // { "Nhom": "DMTTrangThaiThanhToan", "NoiDung": "Đã thanh toán", "GiaTri": 2 },

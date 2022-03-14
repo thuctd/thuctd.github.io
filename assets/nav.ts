@@ -110,7 +110,7 @@ export const NAV: ENVIDB[] =
    label: 'Điện lực', link: 'dien-luc', dbName: 'dien-luc', dbVer: 1, global: true, guest: false, icon: 'construction',
    sub: [
      { label: 'Lập bảng kê', link: 'dien-luc/dmt-input', api: 'dmt-input', guest: false, icon: 'description' , index: ['TrangThai', 'KyThanhToan', 'TrangThaiHoSo', 'TrangThaiThanhToan', 'TenBangKe']},
-     { label: 'Danh sách bảng kê', link: 'dien-luc/dmt-pay', api: 'dmt-pay', guest: false, icon: 'description' , index: ['TrangThai', 'KyThanhToan','TenBangKe']},
+     { label: 'Danh sách bảng kê', link: 'dien-luc/dmt-pay', api: 'dmt-pay', guest: false, icon: 'description' , index: ['TrangThai', 'KyThanhToan','TenBangKe', 'Nam']},
      { label: 'Khách hàng', link: 'dien-luc/dmt-khach-hang', api: 'dmt-khach-hang', guest: false, icon: 'description' , index: ['MaKhachHang']},
      { label: 'Lịch sử cập nhật', link: 'dien-luc/dmt-history', api: 'dmt-history', guest: false, icon: 'description' , index: ['MaKhachHang']},
    ]
