@@ -207,8 +207,8 @@ export const catData = [
   { "Nhom": "TrangThaiHoatDong", "NoiDung": "Đang hoạt động", "GiaTri": 1 },
   { "Nhom": "TrangThaiHoatDong", "NoiDung": "Ngưng hoạt động", "GiaTri": 0 },
 
-  { "Nhom": "CoHoaDon", "NoiDung": "Không có HĐ", "GiaTri": 0 },
-  { "Nhom": "CoHoaDon", "NoiDung": "Có HĐ", "GiaTri": 0 },
+  { "Nhom": "CoHoaDon", "NoiDung": "Không có hóa đơn", "GiaTri": 0 },
+  { "Nhom": "CoHoaDon", "NoiDung": "Có hóa đơn", "GiaTri": 1 },
 
 
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Chưa đủ ĐK", "GiaTri": -1 },
