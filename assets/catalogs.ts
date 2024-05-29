@@ -63,10 +63,6 @@ export const catData = [
   { "Nhom": "GhiChuMon", "NoiDung": "Ít béo", "GiaTri": 3 },
   { "Nhom": "GhiChuMon", "NoiDung": "Ít đá", "GiaTri": 2 },
   { "Nhom": "GhiChuMon", "NoiDung": "Ít ngọt", "GiaTri": 1 },
-  { "Nhom": "GhiChuMon", "NoiDung": "1 phần", "GiaTri": 7 },
-  { "Nhom": "GhiChuMon", "NoiDung": "2 phần", "GiaTri": 8 },
-  { "Nhom": "GhiChuMon", "NoiDung": "3 phần", "GiaTri": 9 },
-  { "Nhom": "GhiChuMon", "NoiDung": "Tất cả", "GiaTri": 10 },
 
   { "Nhom": "GioiTinh", "NoiDung": "Nam", "GiaTri": 1 },
   { "Nhom": "GioiTinh", "NoiDung": "Không xác định", "GiaTri": 0 },
@@ -117,6 +113,7 @@ export const catData = [
   { "Nhom": "Social", "NoiDung": "Google", "GiaTri": 1 },
   { "Nhom": "sohuu", "NoiDung": "DL", "GiaTri": "DL" },
   { "Nhom": "sohuu", "NoiDung": "KH", "GiaTri": "KH" },
+
   { "Nhom": "SoLy", "NoiDung": "Tất cả", "GiaTri": 4 },
   { "Nhom": "SoLy", "NoiDung": "1 ly", "GiaTri": 1 },
   { "Nhom": "SoLy", "NoiDung": "3 ly", "GiaTri": 3 },
@@ -125,6 +122,15 @@ export const catData = [
   { "Nhom": "SoLy", "NoiDung": "1 ly", "GiaTri": 1 },
   { "Nhom": "SoLy", "NoiDung": "3 ly", "GiaTri": 3 },
   { "Nhom": "SoLy", "NoiDung": "2 ly", "GiaTri": 2 },
+
+  { "Nhom": "KieuBan", "NoiDung": "Dịch vụ", "GiaTri": 0 },
+  { "Nhom": "KieuBan", "NoiDung": "Bán lẻ", "GiaTri": 1 },
+
+  { "Nhom": "TrangThaiHangHoa", "NoiDung": "Cho bán", "GiaTri": 1 },
+  { "Nhom": "TrangThaiHangHoa", "NoiDung": "Ngưng bán", "GiaTri": 0 },
+
+
+
   { "Nhom": "tapthe", "NoiDung": "Đội Quản lý vận hành đường dây và trạm biến áp", "GiaTri": "Đội Quản lý vận hành đường dây và trạm biến áp" },
   { "Nhom": "tapthe", "NoiDung": "Tổ Hành chính - Quản trị", "GiaTri": "Tổ Hành chính - Quản trị" },
   { "Nhom": "tapthe", "NoiDung": "Phòng Tài chính Kế toán", "GiaTri": "Phòng Tài chính Kế toán" },
@@ -142,14 +148,7 @@ export const catData = [
   { "Nhom": "tapthe", "NoiDung": "Tổ Quản lý kỹ thuật", "GiaTri": "Tổ Quản lý kỹ thuật" },
   { "Nhom": "tapthe", "NoiDung": "Tổ trực Trung tâm", "GiaTri": "Tổ trực Trung tâm" },
   { "Nhom": "tapthe", "NoiDung": "Tổ trực Xuân Hưng", "GiaTri": "Tổ trực Xuân Hưng" },
-  { "Nhom": "TiepXuc", "NoiDung": "Cách xa hơn 2m", "GiaTri": 9 },
-  { "Nhom": "TiepXuc", "NoiDung": "Sát khuẩn sau tiếp xúc", "GiaTri": 8 },
-  { "Nhom": "TiepXuc", "NoiDung": "Cách 2m", "GiaTri": 7 },
-  { "Nhom": "TiepXuc", "NoiDung": "Cách 1m", "GiaTri": 6 },
-  { "Nhom": "TiepXuc", "NoiDung": "Mang kính chắn", "GiaTri": 5 },
-  { "Nhom": "TiepXuc", "NoiDung": "Mang khẩu trang", "GiaTri": 3 },
-  { "Nhom": "TiepXuc", "NoiDung": "Ngồi", "GiaTri": 2 },
-  { "Nhom": "TiepXuc", "NoiDung": "Đứng", "GiaTri": 1 },
+
   { "Nhom": "Tuyen", "NoiDung": "478-Xuân Hưng", "GiaTri": "478-Xuân Hưng" },
   { "Nhom": "Tuyen", "NoiDung": "479-Gia Ui", "GiaTri": 479 },
   { "Nhom": "Tuyen", "NoiDung": "477-Xuân Phú", "GiaTri": 477 },
@@ -160,6 +159,7 @@ export const catData = [
   { "Nhom": "Tuyen", "NoiDung": "472-Minh Khai", "GiaTri": 472 },
   { "Nhom": "Tuyen", "NoiDung": "471-Suối Cao", "GiaTri": 471 },
   { "Nhom": "Tuyen", "NoiDung": "480-Xuân Bắc", "GiaTri": 480 },
+
   { "Nhom": "ThuChi", "NoiDung": "Thu nhập ngoài", "GiaTri": "Lương ngoài" },
   { "Nhom": "ThuChi", "NoiDung": "Thu nhập chính", "GiaTri": "Lương chính" },
   { "Nhom": "ThuChi", "NoiDung": "Lãng phí", "GiaTri": 6 },
@@ -170,6 +170,7 @@ export const catData = [
 
   { "Nhom": "DoiTuongAT", "NoiDung": "Văn hóa doanh nghiệp", "GiaTri": 6 },
   { "Nhom": "DoiTuongAT", "NoiDung": "Vật tư", "GiaTri": 7 },
+
   { "Nhom": "DoiTuongAT", "NoiDung": "KT lưới điện bậc 2", "GiaTri": 8 },
   { "Nhom": "DoiTuongAT", "NoiDung": "KT lưới điện bậc 3", "GiaTri": 9 },
   { "Nhom": "DoiTuongAT", "NoiDung": "KT lưới điện bậc 4", "GiaTri": 10 },
@@ -183,13 +184,14 @@ export const catData = [
   { "Nhom": "DoiTuongAT", "NoiDung": "Quản lý sửa chữa lưới 6", "GiaTri": 18 },
   { "Nhom": "DoiTuongAT", "NoiDung": "Quản lý sửa chữa lưới 7", "GiaTri": 19 },
   { "Nhom": "DoiTuongAT", "NoiDung": "Vận hành trạm biến áp", "GiaTri": 20 },
-  { "Nhom": "DoiTuongAT", "NoiDung": "Quản lý HĐMBĐ", "GiaTri": 21 },
-  { "Nhom": "DoiTuongAT", "NoiDung": "Dịch vụ khách hàng", "GiaTri": 22 },
-  { "Nhom": "DoiTuongAT", "NoiDung": "Thu ngân viên", "GiaTri": 23 },
-  { "Nhom": "DoiTuongAT", "NoiDung": "Ghi chỉ số", "GiaTri": 24 },
+
+  { "Nhom": "DoiTuongAT", "NoiDung": "Kỹ thuật đo lường", "GiaTri": 27 },
   { "Nhom": "DoiTuongAT", "NoiDung": "Quản lý hệ thống đo đếm", "GiaTri": 25 },
   { "Nhom": "DoiTuongAT", "NoiDung": "Quy định hệ thống đo đếm điện", "GiaTri": 26 },
-  { "Nhom": "DoiTuongAT", "NoiDung": "Kỹ thuật đo lường", "GiaTri": 27 },
+  { "Nhom": "DoiTuongAT", "NoiDung": "Ký kết, quản lý HĐMBĐ", "GiaTri": 21 },
+  { "Nhom": "DoiTuongAT", "NoiDung": "Dịch vụ khách hàng", "GiaTri": 22 },
+  { "Nhom": "DoiTuongAT", "NoiDung": "Thu ngân viên", "GiaTri": 23 },
+  { "Nhom": "DoiTuongAT", "NoiDung": "Ghi chỉ số, lập hóa đơn", "GiaTri": 24 },
 
   { "Nhom": "TrangThai", "NoiDung": "Đã xong", "GiaTri": 2 },
   { "Nhom": "TrangThai", "NoiDung": "Đang", "GiaTri": 1 },
@@ -204,19 +206,40 @@ export const catData = [
   { "Nhom": "TrangThaiGiaoHang", "NoiDung": "Đang giao", "GiaTri": 1 },
   { "Nhom": "TrangThaiGiaoHang", "NoiDung": "Chưa giao", "GiaTri": 0 },
 
+
+  { Nhom: 'TienDoHoSo', NoiDung: 'Đang lập dự toán' , GiaTri: 0 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'Đã duyệt dự toán' , GiaTri: 1 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'Chưa khởi công' , GiaTri: 2 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'Đã khởi công' , GiaTri: 3 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'Đã xuất vật tư đang thi công,' , GiaTri: 4 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'Đã thi công xong chờ nghiệm thu,' , GiaTri: 5 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'Đã nghiệm thu đang lập HS hoàn công' , GiaTri: 6 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'Đã chuyển HS phòng KHKT' , GiaTri: 7 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'Phòng KH-KT đã chuyển ĐVTC' , GiaTri: 8 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'HS hoàn công đã chuyển phòng TCKT' , GiaTri: 9 },
+  { Nhom: 'TienDoHoSo', NoiDung: 'Đã quyết toán' , GiaTri: 10 },
+
+
   { "Nhom": "TrangThaiHoatDong", "NoiDung": "Đang hoạt động", "GiaTri": 1 },
   { "Nhom": "TrangThaiHoatDong", "NoiDung": "Ngưng hoạt động", "GiaTri": 0 },
 
   { "Nhom": "CoHoaDon", "NoiDung": "Không có hóa đơn", "GiaTri": 0 },
   { "Nhom": "CoHoaDon", "NoiDung": "Có hóa đơn", "GiaTri": 1 },
 
+  { "Nhom": "TreoThanhToan", "NoiDung": "Treo thanh toán", "GiaTri": 0 },
+  { "Nhom": "TreoThanhToan", "NoiDung": "Được thanh toán", "GiaTri": 1 },
+
+
+  { "Nhom": "DieuKienThanhToan", "NoiDung": "Đủ điều kiện", "GiaTri": 1 },
+  { "Nhom": "DieuKienThanhToan", "NoiDung": "Chưa đủ điều kiện", "GiaTri": 0 },
 
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Chưa đủ ĐK", "GiaTri": -1 },
-  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Trả lại", "GiaTri": 0 },
-  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đủ ĐK thanh toán", "GiaTri": 1 },
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Sửa lại", "GiaTri": 0 },
+  { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đủ ĐK", "GiaTri": 1 },
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "PKD đã lập bảng kê", "GiaTri": 2 },
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã duyệt thanh toán", "GiaTri": 3 },
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã thanh toán", "GiaTri": 4 },
+  // { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã kê khai thuế", "GiaTri": 5 },
 
 ]
 
