@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1721111081506,
+  "timestamp": 1721728080295,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -15,12 +15,12 @@
         "/934.1542a10d869b506d.js",
         "/favicon.ico",
         "/index.html",
-        "/main.df67af672480d488.js",
+        "/main.2e2087fde34840a7.js",
         "/manifest.webmanifest",
         "/polyfills.5302234b9d8b357a.js",
         "/runtime.a5af22fb013f1ec2.js",
         "/scripts.1783656615cdddfb.js",
-        "/styles.30e4617c1a1d3f4e.css"
+        "/styles.24150422987bb621.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Material\\+Icons",
@@ -289,7 +289,7 @@
     "/assets/img/xd-danh-ba.png": "80d5c55af59ccf67bcb79380b8768fb0081e31ed",
     "/assets/img/xd-giao-hang.png": "7014876831905402f153164edd79a5b8ec36fd04",
     "/assets/img/xd-mua-ban.png": "55b9410103090ea0180e6b80419a986747ef527a",
-    "/assets/nav.ts": "e1d42c5b3f708694d0452255587ab68f7e0fddd6",
+    "/assets/nav.ts": "088e564471b23fa2a1a3cb0bf4321a03e9ddd884",
     "/assets/svg/google.svg": "cfc3347dfb94a4fa7de3edf68d55130951a9c229",
     "/assets/svg/logo.svg": "6e45dc7cd691e8724278c3b9d9f60fa625b7e862",
     "/favicon.ico": "d408671ae917ffe51f8ece2d1de0417fe900decf",
@@ -298,9 +298,9 @@
     "/fontawesome-webfont.cf011583fb81df9f.woff": "28b782240b3e76db824e12c02754a9731a167527",
     "/fontawesome-webfont.da909aa098b0ee2d.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
     "/fontawesome-webfont.e9955780856cf8aa.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
-    "/index.html": "8a1e2cb959d929688ede2f29611e84e042d88d1d",
+    "/index.html": "bf362f50d5a5ddc865e4060e0d612cedfdf7d79b",
     "/loading.b0f71940623d310d.gif": "b69f11b6b9ae7f5e860ab1a5c08035cff9498411",
-    "/main.df67af672480d488.js": "43e51b6d45b8497a965c23eb7d0f5c8c249ad751",
+    "/main.2e2087fde34840a7.js": "f5ea76c08d9a822bd30eca65514f9e8ffe949826",
     "/manifest.webmanifest": "a6e999da6bf5f3e14cb35c7dc632db45964db33d",
     "/material-icons-outlined.78a93b2079680a08.woff": "b52ccd8fca4199d257b2a9fe377db29862f2853e",
     "/material-icons-outlined.f86cb7b0aa53f0fe.woff2": "2f9e28ab559782402f27332633c843c40209d95a",
@@ -315,7 +315,7 @@
     "/polyfills.5302234b9d8b357a.js": "b6125fa1ab5c3e2ab41e49e2579e38924decc0c8",
     "/runtime.a5af22fb013f1ec2.js": "fef2ece31f791e2534762739f9b3336b6e244a67",
     "/scripts.1783656615cdddfb.js": "f9cddab3b636cd55ac2f6a8def97334cc923b8f3",
-    "/styles.30e4617c1a1d3f4e.css": "773b3118e7a3641960bce8d8ffc0531be0863bdd"
+    "/styles.24150422987bb621.css": "77f65e0f55a4e674a9c31948a1d130073d2d51b8"
   },
   "navigationUrls": [
     {
