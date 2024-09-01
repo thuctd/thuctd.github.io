@@ -1,4 +1,4 @@
-import { ENVIDB } from "src/app/share/env-idb.interface";
+import { ENVIDB } from './../app/share/env-idb.interface';
 
 export const NAV: ENVIDB[] =
   [
