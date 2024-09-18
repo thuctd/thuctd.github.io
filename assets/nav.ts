@@ -41,11 +41,13 @@ export const NAV: ENVIDB[] =
     {
       label: 'Tiện ích', link: 'tienich', dbName: 'app', dbVer: 1, global: true, guest: false, icon: 'construction',
       sub: [
-        { label: 'Barcode Generate', link: 'tienich/barcode-generate', api: 'barcode', guest: false, icon: 'qr_code_scanner', index: [] },
+        // { label: 'Barcode Generate', link: 'tienich/barcode-generate', api: 'barcode', guest: false, icon: 'qr_code_scanner', index: [] },
         { label: 'Đặt tên file', link: 'tienich/ten-file', api: 'ten-file', guest: false, icon: 'insert_drive_file', index: [] },
         { label: 'Merge', link: 'tienich/merge', api: 'merge', guest: true, icon: 'history_edu', index: [] },
         //  { label: '', link: 'tienich/cmis4', api: 'cmis4', guest: false, icon: 'history_edu' , index: ['']},
         { label: 'CSKH', link: 'tienich/cskh', api: 'cmis4-app-cskh', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
+        { label: 'HTML', link: 'tienich/html', api: 'hmtl', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
+        { label: 'Combine Excel', link: 'tienich/combine-excel', api: 'combine-excel', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
       ]
     },
     {
