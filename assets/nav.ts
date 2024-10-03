@@ -21,7 +21,7 @@ export const NAV: ENVIDB[] =
     {
       label: 'Trắc nghiệm', link: 'trac-nghiem', dbName: 'trac-nghiem', dbVer: 4, global: true, guest: false, icon: 'quiz',
       sub: [
-        { label: 'Trắc nghiệm', link: 'trac-nghiem', api: 'trac-nghiem', guest: false, index: ['Nhom', 'PhanLoai'] },
+        { label: 'Trắc nghiệm', link: 'trac-nghiem', api: 'trac-nghiem', guest: true, index: ['Nhom', 'PhanLoai'] },
         { label: 'Elearning', link: 'trac-nghiem/elearning', api: 'elearning', guest: false, icon: 'quiz', index: [] },
       ]
     },
@@ -41,11 +41,13 @@ export const NAV: ENVIDB[] =
     {
       label: 'Tiện ích', link: 'tienich', dbName: 'app', dbVer: 1, global: true, guest: false, icon: 'construction',
       sub: [
-        { label: 'Barcode Generate', link: 'tienich/barcode-generate', api: 'barcode', guest: false, icon: 'qr_code_scanner', index: [] },
+        // { label: 'Barcode Generate', link: 'tienich/barcode-generate', api: 'barcode', guest: false, icon: 'qr_code_scanner', index: [] },
         { label: 'Đặt tên file', link: 'tienich/ten-file', api: 'ten-file', guest: false, icon: 'insert_drive_file', index: [] },
         { label: 'Merge', link: 'tienich/merge', api: 'merge', guest: true, icon: 'history_edu', index: [] },
         //  { label: '', link: 'tienich/cmis4', api: 'cmis4', guest: false, icon: 'history_edu' , index: ['']},
         { label: 'CSKH', link: 'tienich/cskh', api: 'cmis4-app-cskh', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
+        { label: 'HTML', link: 'tienich/html', api: 'hmtl', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
+        { label: 'Combine Excel', link: 'tienich/combine-excel', api: 'combine-excel', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
       ]
     },
     {
@@ -76,9 +78,9 @@ export const NAV: ENVIDB[] =
       ]
     },
     {
-      label: 'UNC', link: 'dien-luc', dbName: 'unc', dbVer: 1, global: true, guest: false, icon: 'construction',
+      label: 'UNC', link: 'dien-luc', dbName: 'unc', dbVer: 2, global: true, guest: false, icon: 'construction',
       sub: [
-        { label: 'Khách hàng', link: 'dien-luc/unc-khach-hang', api: 'unc-khach-hang', guest: false, icon: 'description', index: ['dateModify', 'status', 'sync', 'Nam', 'keyWord', '_id', 'MaDV', 'MaKH', 'TenKhachHang', 'SoTK', 'NganHang', 'Tinh', 'Email', 'MaSoThue', 'DaiDien', 'ChucVu'] },
+        { label: 'Khách hàng', link: 'dien-luc/unc-khach-hang', api: 'unc-khach-hang', guest: false, icon: 'description', index: ['bin', 'SoTK'] },
         //  { label: 'Uỷ nhiệm chi', link: 'dien-luc/unc-phieu', api: 'unc-phieu', guest: false, icon: 'description' , index: [ ]},
       ]
     },
