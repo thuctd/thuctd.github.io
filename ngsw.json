@@ -1,14 +1,10 @@
 {
   "configVersion": 1,
-<<<<<<< HEAD
-  "timestamp": 1727676615348,
-=======
-  "timestamp": 1725423927066,
->>>>>>> cdb1e0ad5eaeac63bc2ff618faee4f6a664cd8d6
+  "timestamp": 1732374525783,
   "index": "/index.html",
   "assetGroups": [
     {
-      "name": "Điện lực Xuân Lộc",
+      "name": "PCDN",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "cacheQueryOptions": {
@@ -19,16 +15,12 @@
         "/934.1542a10d869b506d.js",
         "/favicon.ico",
         "/index.html",
-<<<<<<< HEAD
-        "/main.d871892af9786383.js",
-=======
-        "/main.d6ffcddecf195fb7.js",
->>>>>>> cdb1e0ad5eaeac63bc2ff618faee4f6a664cd8d6
+        "/main.60926f900633b638.js",
         "/manifest.webmanifest",
         "/polyfills.5302234b9d8b357a.js",
         "/runtime.a5af22fb013f1ec2.js",
         "/scripts.1783656615cdddfb.js",
-        "/styles.24150422987bb621.css"
+        "/styles.aa7865e1f6b308a2.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Material\\+Icons",
@@ -99,6 +91,7 @@
         "/assets/img/cau-hinh.png",
         "/assets/img/chanh.png",
         "/assets/img/cmis4-app-cskh.png",
+        "/assets/img/cmis4-ghi-chi-so.png",
         "/assets/img/cmis4-lien-he.png",
         "/assets/img/cmis4-tien-do-cap-dien.png",
         "/assets/img/cmis4.png",
@@ -150,7 +143,10 @@
         "/assets/img/tiep-xuc.png",
         "/assets/img/toa-do.png",
         "/assets/img/trac-nghiem.png",
+        "/assets/img/unc-cau-hinh.png",
         "/assets/img/unc-khach-hang.png",
+        "/assets/img/unc-ngan-hang.png",
+        "/assets/img/unc-phieu.png",
         "/assets/img/user.png",
         "/assets/img/xang-dau.png",
         "/assets/img/xd-ban-ra.png",
@@ -240,6 +236,7 @@
     "/assets/img/cau-hinh.png": "052969a63cda67b487ae375b8cc49f0376f8c2bf",
     "/assets/img/chanh.png": "c18dd65f9373711f1dbaa1b4899bbaf6f970bfa9",
     "/assets/img/cmis4-app-cskh.png": "7068aa761048857132c8bd8e6370603c1f349e7b",
+    "/assets/img/cmis4-ghi-chi-so.png": "1816293130ca1f62bb9e41e808336cf2a5aeb307",
     "/assets/img/cmis4-lien-he.png": "14e3f02e451c3a7f9690cc912136b0b79f29ff19",
     "/assets/img/cmis4-tien-do-cap-dien.png": "627cd35d8b99daefc9089661d51f08978860f5f2",
     "/assets/img/cmis4.png": "244fcd08cc19ddbbd8f931a5286e01fb320a7d61",
@@ -291,7 +288,10 @@
     "/assets/img/tiep-xuc.png": "b5b0355252f23ca157d615a17d471578f8d428b8",
     "/assets/img/toa-do.png": "0a422ffde46a465e70421a5b8e3d80f2d3160fe1",
     "/assets/img/trac-nghiem.png": "e0c607607c1bf054b74d7d5a9bb3627d7ae508a1",
-    "/assets/img/unc-khach-hang.png": "abae81164749f7e1fa73f787fb6fe8dca6145ccb",
+    "/assets/img/unc-cau-hinh.png": "63bab35f94d7230d2ef4a02528c4c8cfeea8a57c",
+    "/assets/img/unc-khach-hang.png": "3717f8bcd978896fd2412279b05826035fae8939",
+    "/assets/img/unc-ngan-hang.png": "fb1a53008000e805c25673ae17b8206dedec7994",
+    "/assets/img/unc-phieu.png": "0c4276711b023eec87071a5c7ec944c940ae6c4a",
     "/assets/img/user.png": "6ffd89949d2e09314a2f5501acbde8a3bcc8dbf1",
     "/assets/img/xang-dau.png": "365e70e6d2bcdc33999c1ae003add603e205fe5f",
     "/assets/img/xd-ban-ra.png": "b683278f9c4993ddc0217f15158fb18c2acf6651",
@@ -299,29 +299,19 @@
     "/assets/img/xd-danh-ba.png": "80d5c55af59ccf67bcb79380b8768fb0081e31ed",
     "/assets/img/xd-giao-hang.png": "7014876831905402f153164edd79a5b8ec36fd04",
     "/assets/img/xd-mua-ban.png": "55b9410103090ea0180e6b80419a986747ef527a",
-<<<<<<< HEAD
-    "/assets/nav.ts": "3988a7212be916e9eff634817a2aa2fc9c4c16b5",
-=======
-    "/assets/nav.ts": "cbf6d059683180a01154c5ac5c486f47535356c6",
->>>>>>> cdb1e0ad5eaeac63bc2ff618faee4f6a664cd8d6
+    "/assets/nav.ts": "81b7ebbc695eca2e4d72bc4d6d0799f46a12541d",
     "/assets/svg/google.svg": "cfc3347dfb94a4fa7de3edf68d55130951a9c229",
-    "/assets/svg/logo.svg": "6e45dc7cd691e8724278c3b9d9f60fa625b7e862",
+    "/assets/svg/logo.svg": "5771043961db163e483b10db8a9c048dce8dfca1",
     "/favicon.ico": "d408671ae917ffe51f8ece2d1de0417fe900decf",
     "/fontawesome-webfont.2b13baa7dd4f54c9.eot": "d980c2ce873dc43af460d4d572d441304499f400",
     "/fontawesome-webfont.8a7cb27d142e3e19.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
     "/fontawesome-webfont.cf011583fb81df9f.woff": "28b782240b3e76db824e12c02754a9731a167527",
     "/fontawesome-webfont.da909aa098b0ee2d.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
     "/fontawesome-webfont.e9955780856cf8aa.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
-<<<<<<< HEAD
-    "/index.html": "7d3091d5882cb4f364899d94aa0ea3d2f1f89436",
+    "/index.html": "c18764811c3c7fda0849c28967c4dcf8b3e04687",
     "/loading.b0f71940623d310d.gif": "b69f11b6b9ae7f5e860ab1a5c08035cff9498411",
-    "/main.d871892af9786383.js": "1b544c7eb931b0500aae4787e45bdb2c2478affd",
-=======
-    "/index.html": "c07ab42590eb50705e5e27ceeb432ec2ffd28687",
-    "/loading.b0f71940623d310d.gif": "b69f11b6b9ae7f5e860ab1a5c08035cff9498411",
-    "/main.d6ffcddecf195fb7.js": "ba97547387e95dfc66b2612e38230b65644d4a40",
->>>>>>> cdb1e0ad5eaeac63bc2ff618faee4f6a664cd8d6
-    "/manifest.webmanifest": "a6e999da6bf5f3e14cb35c7dc632db45964db33d",
+    "/main.60926f900633b638.js": "4729f67c97861dea5ce0340f7d6adb88f59f7eac",
+    "/manifest.webmanifest": "30f7da7cea513f69ca033da7872ae0103dbba429",
     "/material-icons-outlined.78a93b2079680a08.woff": "b52ccd8fca4199d257b2a9fe377db29862f2853e",
     "/material-icons-outlined.f86cb7b0aa53f0fe.woff2": "2f9e28ab559782402f27332633c843c40209d95a",
     "/material-icons-round.92dc7ca2f4c591e7.woff": "c41bfee3f01218e18d53f4f4cac00f385ac9fbb1",
@@ -335,7 +325,7 @@
     "/polyfills.5302234b9d8b357a.js": "b6125fa1ab5c3e2ab41e49e2579e38924decc0c8",
     "/runtime.a5af22fb013f1ec2.js": "fef2ece31f791e2534762739f9b3336b6e244a67",
     "/scripts.1783656615cdddfb.js": "f9cddab3b636cd55ac2f6a8def97334cc923b8f3",
-    "/styles.24150422987bb621.css": "77f65e0f55a4e674a9c31948a1d130073d2d51b8"
+    "/styles.aa7865e1f6b308a2.css": "378d031af89150de3cec2740005c105a8b867aff"
   },
   "navigationUrls": [
     {

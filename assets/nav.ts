@@ -21,8 +21,9 @@ export const NAV: ENVIDB[] =
     {
       label: 'Trắc nghiệm', link: 'trac-nghiem', dbName: 'trac-nghiem', dbVer: 4, global: true, guest: false, icon: 'quiz',
       sub: [
-        { label: 'Trắc nghiệm', link: 'trac-nghiem', api: 'trac-nghiem', guest: true, index: ['Nhom', 'PhanLoai'] },
+        { label: 'Trắc nghiệm', link: 'trac-nghiem', api: 'trac-nghiem', guest: false, index: ['Nhom', 'PhanLoai'] },
         { label: 'Elearning', link: 'trac-nghiem/elearning', api: 'elearning', guest: false, icon: 'quiz', index: [] },
+
       ]
     },
     {
@@ -39,7 +40,7 @@ export const NAV: ENVIDB[] =
       ]
     },
     {
-      label: 'Tiện ích', link: 'tienich', dbName: 'app', dbVer: 1, global: true, guest: false, icon: 'construction',
+      label: 'Tiện ích', link: 'tienich', dbName: 'app', dbVer: 2, global: true, guest: false, icon: 'construction',
       sub: [
         // { label: 'Barcode Generate', link: 'tienich/barcode-generate', api: 'barcode', guest: false, icon: 'qr_code_scanner', index: [] },
         { label: 'Đặt tên file', link: 'tienich/ten-file', api: 'ten-file', guest: false, icon: 'insert_drive_file', index: [] },
@@ -48,6 +49,10 @@ export const NAV: ENVIDB[] =
         { label: 'CSKH', link: 'tienich/cskh', api: 'cmis4-app-cskh', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
         { label: 'HTML', link: 'tienich/html', api: 'hmtl', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
         { label: 'Combine Excel', link: 'tienich/combine-excel', api: 'combine-excel', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
+        { label: 'Ghi chỉ số', link: 'tienich/cmis4-ghi-chi-so', api: 'cmis4-ghi-chi-so', guest: false, icon: 'quiz', index: ['MA_KHANG'] },
+        { label: '', link: '', api: 'PhanCong', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
+        { label: '', link: '', api: 'GiaoSo', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
+
       ]
     },
     {
@@ -61,6 +66,8 @@ export const NAV: ENVIDB[] =
         { label: '', link: '', api: 'cmis4-bien-ban-dmt', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: '', link: '', api: 'cmis4-quyet-toan-dmt', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: '', link: '', api: 'cmis4-chi-so', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
+        { label: '', link: '', api: 'cmis4-doi-gia', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
+
       ]
     },
     {
@@ -78,10 +85,12 @@ export const NAV: ENVIDB[] =
       ]
     },
     {
-      label: 'UNC', link: 'dien-luc', dbName: 'unc', dbVer: 2, global: true, guest: false, icon: 'construction',
+      label: 'UNC', link: 'unc', dbName: 'unc', dbVer: 3, global: true, guest: false, icon: 'construction',
       sub: [
-        { label: 'Khách hàng', link: 'dien-luc/unc-khach-hang', api: 'unc-khach-hang', guest: false, icon: 'description', index: ['bin', 'SoTK'] },
-        //  { label: 'Uỷ nhiệm chi', link: 'dien-luc/unc-phieu', api: 'unc-phieu', guest: false, icon: 'description' , index: [ ]},
+        { label: 'Cấu hình đơn vị', link: 'unc/unc-cau-hinh', api: 'unc-cau-hinh', guest: false, icon: 'description', index: [] },
+        { label: 'Danh sách ngân hàng', link: 'unc/unc-ngan-hang', api: 'unc-ngan-hang', guest: false, icon: 'description', index: [] },
+        { label: 'Lập ủy nhiệm chi', link: 'unc/unc-khach-hang', api: 'unc-khach-hang', guest: false, icon: 'description', index: ['bin', 'SoTK'] },
+        { label: 'Danh sách phiếu UNC', link: 'unc', api: 'unc-phieu', guest: false, icon: 'description', index: ['SoPhieu', 'NgayLap', 'NganHang', 'MaNganHang' ] },
       ]
     },
   ]
