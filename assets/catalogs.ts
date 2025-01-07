@@ -207,18 +207,6 @@ export const catData = [
   { "Nhom": "TrangThaiGiaoHang", "NoiDung": "Chưa giao", "GiaTri": 0 },
 
 
-  { Nhom: 'TienDoHoSo', NoiDung: 'Đang lập dự toán' , GiaTri: 0 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'Đã duyệt dự toán' , GiaTri: 1 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'Chưa khởi công' , GiaTri: 2 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'Đã khởi công' , GiaTri: 3 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'Đã xuất vật tư đang thi công,' , GiaTri: 4 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'Đã thi công xong chờ nghiệm thu,' , GiaTri: 5 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'Đã nghiệm thu đang lập HS hoàn công' , GiaTri: 6 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'Đã chuyển HS phòng KHKT' , GiaTri: 7 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'Phòng KH-KT đã chuyển ĐVTC' , GiaTri: 8 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'HS hoàn công đã chuyển phòng TCKT' , GiaTri: 9 },
-  { Nhom: 'TienDoHoSo', NoiDung: 'Đã quyết toán' , GiaTri: 10 },
-
 
   { "Nhom": "TrangThaiHoatDong", "NoiDung": "Đang hoạt động", "GiaTri": 1 },
   { "Nhom": "TrangThaiHoatDong", "NoiDung": "Ngưng hoạt động", "GiaTri": 0 },
@@ -240,6 +228,29 @@ export const catData = [
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã duyệt thanh toán", "GiaTri": 3 },
   { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã thanh toán", "GiaTri": 4 },
   // { "Nhom": "DMTTrangThaiHoSo", "NoiDung": "Đã kê khai thuế", "GiaTri": 5 },
+
+  { "Nhom": "TrangThaiHSTA", "NoiDung": "Trả hồ sơ", "GiaTri": -1 },
+  { "Nhom": "TrangThaiHSTA", "NoiDung": "Tiếp nhận", "GiaTri": 0 },
+  { "Nhom": "TrangThaiHSTA", "NoiDung": "Đang khảo sát", "GiaTri": 1 },
+  { "Nhom": "TrangThaiHSTA", "NoiDung": "Chờ cấp phép", "GiaTri": 3 },
+  { "Nhom": "TrangThaiHSTA", "NoiDung": "Đã TTĐN", "GiaTri": 2 },
+  { "Nhom": "TrangThaiHSTA", "NoiDung": "Đang thi công", "GiaTri": 4 },
+  { "Nhom": "TrangThaiHSTA", "NoiDung": "Đã khai thác", "GiaTri": 5 },
+
+  { "Nhom": "LoaiCTHSTA", "NoiDung": "Xây dựng mới", "GiaTri": 1 },
+  { "Nhom": "LoaiCTHSTA", "NoiDung": "Tăng công suất", "GiaTri": 2 },
+  { "Nhom": "LoaiCTHSTA", "NoiDung": "Di dời", "GiaTri": 3 },
+
+
+  { "Nhom": "TrangThaiUNC", "NoiDung": "Hủy", "GiaTri": 0 },
+  { "Nhom": "TrangThaiUNC", "NoiDung": "Đã duyệt", "GiaTri": 1 },
+  { "Nhom": "TrangThaiUNC", "NoiDung": "Đã chuyển ngân hàng", "GiaTri": 2 },
+  { "Nhom": "TrangThaiUNC", "NoiDung": "Đã thanh toán", "GiaTri": 3 },
+
+  { "Nhom": "LoaiVB", "NoiDung": "Bản sao", "GiaTri": "Bản sao" },
+  { "Nhom": "LoaiVB", "NoiDung": "Bản sao công chứng", "GiaTri": "Bản sao công chứng" },
+  { "Nhom": "LoaiVB", "NoiDung": "Bản chính", "GiaTri": "Bản chính" },
+  { "Nhom": "LoaiVB", "NoiDung": "Bản gốc", "GiaTri": "Bản gốc" },
 
 ]
 

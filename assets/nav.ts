@@ -67,6 +67,7 @@ export const NAV: ENVIDB[] =
         { label: '', link: '', api: 'cmis4-quyet-toan-dmt', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: '', link: '', api: 'cmis4-chi-so', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: '', link: '', api: 'cmis4-doi-gia', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
+        { label: '', link: '', api: 'cmis4-c06', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
 
       ]
     },
@@ -91,6 +92,17 @@ export const NAV: ENVIDB[] =
         { label: 'Danh sách ngân hàng', link: 'unc/unc-ngan-hang', api: 'unc-ngan-hang', guest: false, icon: 'description', index: [] },
         { label: 'Lập ủy nhiệm chi', link: 'unc/unc-khach-hang', api: 'unc-khach-hang', guest: false, icon: 'description', index: ['bin', 'SoTK'] },
         { label: 'Danh sách phiếu UNC', link: 'unc', api: 'unc-phieu', guest: false, icon: 'description', index: ['SoPhieu', 'NgayLap', 'NganHang', 'MaNganHang' ] },
+      ]
+    },
+     {
+      label: 'Kinh Doanh', link: 'kinh-doanh', dbName: 'kinh-doanh', dbVer: 5, global: true, guest: false, icon: 'construction',
+      sub: [
+        { label: 'Hồ sơ trung áp', link: 'kinh-doanh/hsta', api: 'hsta-ds', guest: false, icon: 'description', index: ['TEN_CONG_TRINH', 'TRANG_THAI'] },
+        { label: '', link: '', api: 'hsta-kt', guest: false, icon: 'description', index: ['ID_CONG_TRINH'] },
+        { label: 'Treo tháo', link: 'kinh-doanh/treo-thao', api: 'treo-thao', guest: false, icon: 'description', index: ['SO_CTO_MOI', 'NGAY_THUC_HIEN', 'MA_KHANG', 'SO_CTO', 'MA_TRAM', 'nick'] },
+        { label: 'Treo tháo', link: 'kinh-doanh/phan-cong', api: 'phan-cong-treo-thao', guest: false, icon: 'description', index: ['SO_CTO_MOI', 'NGAY_THUC_HIEN', 'MA_KHANG', 'SO_CTO', 'MA_TRAM', 'nick', 'NV1'] },
+        { label: 'Treo tháo', link: 'kinh-doanh/kim', api: 'kim-treo-thao', guest: false, icon: 'description', index: ['SO_CTO_MOI', 'NGAY_THUC_HIEN', 'MA_KHANG', 'SO_CTO', 'MA_TRAM'] },
+
       ]
     },
   ]

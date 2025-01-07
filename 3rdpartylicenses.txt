@@ -2755,6 +2755,9 @@ OTHER DEALINGS IN THE SOFTWARE.
 ngx-kjua
 MIT
 
+ngx-scanner-qrcode
+LGPL-2.1+
+
 ngx-toastr
 MIT
 The MIT License (MIT)
