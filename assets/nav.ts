@@ -95,13 +95,15 @@ export const NAV: ENVIDB[] =
       ]
     },
      {
-      label: 'Kinh Doanh', link: 'kinh-doanh', dbName: 'kinh-doanh', dbVer: 5, global: true, guest: false, icon: 'construction',
+      label: 'Kinh Doanh', link: 'kinh-doanh', dbName: 'kinh-doanh', dbVer: 7, global: true, guest: false, icon: 'construction',
       sub: [
         { label: 'Hồ sơ trung áp', link: 'kinh-doanh/hsta', api: 'hsta-ds', guest: false, icon: 'description', index: ['TEN_CONG_TRINH', 'TRANG_THAI'] },
         { label: '', link: '', api: 'hsta-kt', guest: false, icon: 'description', index: ['ID_CONG_TRINH'] },
-        { label: 'Treo tháo', link: 'kinh-doanh/treo-thao', api: 'treo-thao', guest: false, icon: 'description', index: ['SO_CTO_MOI', 'NGAY_THUC_HIEN', 'MA_KHANG', 'SO_CTO', 'MA_TRAM', 'nick'] },
+        { label: 'Treo tháo', link: 'kinh-doanh/treo-thao', api: 'treo-thao', guest: false, icon: 'description', index: ['SO_CTO_MOI', 'NGAY_THUC_HIEN', 'MA_KHANG', 'SO_CTO', 'MA_TRAM', 'nick', 'NV1'] },
+        { label: '', link: '', api: 'treo-thao-off', guest: false, icon: 'description', index: ['SO_CTO_MOI', 'NGAY_THUC_HIEN', 'MA_KHANG', 'SO_CTO', 'MA_TRAM', 'nick', 'NV1'] },
         { label: 'Treo tháo', link: 'kinh-doanh/phan-cong', api: 'phan-cong-treo-thao', guest: false, icon: 'description', index: ['SO_CTO_MOI', 'NGAY_THUC_HIEN', 'MA_KHANG', 'SO_CTO', 'MA_TRAM', 'nick', 'NV1'] },
         { label: 'Treo tháo', link: 'kinh-doanh/kim', api: 'kim-treo-thao', guest: false, icon: 'description', index: ['SO_CTO_MOI', 'NGAY_THUC_HIEN', 'MA_KHANG', 'SO_CTO', 'MA_TRAM'] },
+        { label: 'Treo tháo', link: 'kinh-doanh/in-treo-thao', api: 'in-treo-thao', guest: false, icon: 'description', index: ['SO_CTO_MOI', 'NGAY_THUC_HIEN', 'MA_KHANG', 'SO_CTO', 'MA_TRAM'] },
 
       ]
     },
