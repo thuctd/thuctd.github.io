@@ -7,8 +7,20 @@
 </head>
 
 <body id="app">
+  <h1>404 - Trang không tìm thấy</h1>
+  <p>Đang chuyển hướng về trang chủ sau <span id="countdown">5</span> giây...</p>
   <script>
-    window.location.href = 'https://dlxl7-244709.web.app';
+    let seconds = 5;
+    const countdownElement = document.getElementById('countdown');
+
+    const timer = setInterval(() => {
+      seconds--;
+      countdownElement.textContent = seconds;
+      if (seconds <= 0) {
+        clearInterval(timer);
+        window.location.href = '/';
+      }
+    }, 1000);
   </script>
 </body>
 </html>
