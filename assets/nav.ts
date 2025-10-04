@@ -21,7 +21,7 @@ export const NAV: ENVIDB[] =
     {
       label: 'Trắc nghiệm', link: 'trac-nghiem', dbName: 'trac-nghiem', dbVer: 4, global: true, guest: false, icon: 'quiz',
       sub: [
-        { label: 'Trắc nghiệm', link: 'trac-nghiem', api: 'trac-nghiem', guest: true, index: ['Nhom', 'PhanLoai'] },
+        { label: 'Trắc nghiệm', link: 'trac-nghiem', api: 'trac-nghiem', guest: false, index: ['Nhom', 'PhanLoai'] },
         { label: 'Elearning', link: 'trac-nghiem/elearning', api: 'elearning', guest: false, icon: 'quiz', index: [] },
 
       ]

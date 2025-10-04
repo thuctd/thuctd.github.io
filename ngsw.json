@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1759278598919,
+  "timestamp": 1759479432537,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "/934.1542a10d869b506d.js",
         "/favicon.ico",
         "/index.html",
-        "/main.d58c590258387373.js",
+        "/main.9bd438d7a093763a.js",
         "/manifest.webmanifest",
         "/polyfills.45e0d9ebf12bcff3.js",
         "/runtime.a5af22fb013f1ec2.js",
@@ -327,7 +327,7 @@
     "/assets/img/xd-danh-ba.png": "80d5c55af59ccf67bcb79380b8768fb0081e31ed",
     "/assets/img/xd-giao-hang.png": "7014876831905402f153164edd79a5b8ec36fd04",
     "/assets/img/xd-mua-ban.png": "55b9410103090ea0180e6b80419a986747ef527a",
-    "/assets/nav.ts": "90ac26d75a0eb4400855709107e3085c849d85f3",
+    "/assets/nav.ts": "e89941eb93511152ad7cc59e717d24059bcef42c",
     "/assets/svg/google.svg": "cfc3347dfb94a4fa7de3edf68d55130951a9c229",
     "/assets/svg/logo.svg": "5771043961db163e483b10db8a9c048dce8dfca1",
     "/assets/wasm/index.d.ts": "c6fed116097f34df9567127c0d1dd302b8864f9f",
@@ -342,9 +342,9 @@
     "/fontawesome-webfont.cf011583fb81df9f.woff": "28b782240b3e76db824e12c02754a9731a167527",
     "/fontawesome-webfont.da909aa098b0ee2d.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
     "/fontawesome-webfont.e9955780856cf8aa.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
-    "/index.html": "ac92095210c6895b291324adf14a788d45322faf",
+    "/index.html": "6e9db75d8ef6e9f0b971e7ade8f5a000b636348d",
     "/loading.b0f71940623d310d.gif": "b69f11b6b9ae7f5e860ab1a5c08035cff9498411",
-    "/main.d58c590258387373.js": "392878886418d909e6e9e84b26853522e638f63b",
+    "/main.9bd438d7a093763a.js": "a8482e1f0873be7bbdb3f5c00ca2486dafdc2215",
     "/manifest.webmanifest": "30f7da7cea513f69ca033da7872ae0103dbba429",
     "/material-icons-outlined.78a93b2079680a08.woff": "b52ccd8fca4199d257b2a9fe377db29862f2853e",
     "/material-icons-outlined.f86cb7b0aa53f0fe.woff2": "2f9e28ab559782402f27332633c843c40209d95a",
