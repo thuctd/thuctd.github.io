@@ -56,6 +56,7 @@ export const NAV: ENVIDB[] =
       label: 'CMIS4', link: 'cmis4', dbName: 'cmis4', dbVer: 3, global: true, guest: false, icon: 'construction',
       sub: [
         { label: 'CMIS4', link: 'cmis4', api: 'cmis4', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
+        { label: 'Số hóa hồ sơ', link: '', api: 'cmis4-so-hoa', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Tools', link: '', api: 'cmis4-tools', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Tra cứu', link: '', api: 'cmis4-tra-cuu', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Báo cáo 14 Chỉ tiêu', link: '', api: 'cmis4-cap-dien', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
@@ -67,7 +68,6 @@ export const NAV: ENVIDB[] =
         { label: 'Chốt chỉ số đổi giá', link: '', api: 'cmis4-doi-gia', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Nhập chỉ số định kỳ', link: '', api: 'nhap-chi-so-dinh-ky', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Đối soát C06', link: '', api: 'cmis4-c06', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'TEN_TRAM'] },
-        { label: 'Số hóa hồ sơ', link: '', api: 'cmis4-so-hoa', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'In hợp đồng', link: '', api: 'cmis4-in-hop-dong', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Hết hạn hợp đồng', link: '', api: 'cmis4-han-hop-dong', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Tiếp nhận yêu cầu', link: '', api: 'cmis4-tiep-nhan-yeu-cau', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
