@@ -112,6 +112,7 @@ export const NAV: ENVIDB[] =
         { label: 'Ghi chỉ số', link: 'kinh-doanh/ghi-chi-so', api: 'ghi-chi-so', guest: false, icon: 'quiz', index: ['MA_KHANG', 'SO_CTO', 'PHAN_CONG', 'MA_SOGCS', 'BCS' , 'KYCS', 'SO_GHI', 'TEN_TRAM', 'TRANG_THAI'] },
         { label: 'Lịch ghi chỉ số', link: 'kinh-doanh/lich-ghi-chi-so', api: 'lich-ghi-chi-so', guest: false, icon: 'quiz', index: ['PHAN_CONG', 'MA_SOGCS', 'MA_KV', 'TEN_TRAM'] },
         { label: 'Bảo đảm hợp đồng', link: 'kinh-doanh/ky-quy', api: 'ky-quy', guest: false, icon: 'quiz', index: ['MA_KHANG', 'HTHUC_DBAO_HDONG', 'TRANG_THAI', 'NGAY_BAO_CO', 			] },
+        { label: 'Dự báo', link: 'kinh-doanh/du-bao', api: 'du-bao', guest: false, icon: 'quiz', index: [] },
       ]
     },
   ]
