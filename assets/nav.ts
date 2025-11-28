@@ -53,7 +53,7 @@ export const NAV: ENVIDB[] =
       ]
     },
     {
-      label: 'CMIS4', link: 'cmis4', dbName: 'cmis4', dbVer: 3, global: true, guest: false, icon: 'construction',
+      label: 'CMIS4', link: 'cmis4', dbName: 'cmis4', dbVer: 4, global: true, guest: false, icon: 'construction',
       sub: [
         { label: 'CMIS4', link: 'cmis4', api: 'cmis4', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Số hóa hồ sơ', link: '', api: 'cmis4-so-hoa', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
@@ -75,6 +75,7 @@ export const NAV: ENVIDB[] =
         { label: 'Thay đổi thông tin', link: '', api: 'cmis4-thay-doi-thong-tin', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Dự thảo hợp đồng', link: '', api: 'cmis4-du-thao-ha-ap', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { label: 'Giao hồ sơ', link: '', api: 'cmis4-giao-ho-so', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
+        { label: 'Ghi rớt', link: '', api: 'cmis4-ghi-rot', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
 
       ]
     },
