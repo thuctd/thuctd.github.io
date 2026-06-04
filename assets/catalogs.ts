@@ -231,8 +231,8 @@ export const catData: CATALOGS[] = [
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Trả hồ sơ", "GiaTri": -1 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Tiếp nhận", "GiaTri": 0 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Đang khảo sát", "GiaTri": 1 },
-  { "Nhom": "TrangThaiHSTA", "NoiDung": "Chờ cấp phép", "GiaTri": 3 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Đã TTĐN", "GiaTri": 2 },
+  { "Nhom": "TrangThaiHSTA", "NoiDung": "Chờ cấp phép", "GiaTri": 3 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Đang thi công", "GiaTri": 4 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Đã đóng điện", "GiaTri": 5 },
 
@@ -264,9 +264,6 @@ export const catData: CATALOGS[] = [
 
   { "Nhom": "LOAIHOPDONG", "NoiDung": "Hợp đồng ngắn hạn", "GiaTri": 'HDNH' },
   { "Nhom": "LOAIHOPDONG", "NoiDung": "Hợp đồng ngoài sinh hoạt", "GiaTri": 'HDNSH' },
-
-
-
 
 
 ]
