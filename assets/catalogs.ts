@@ -258,7 +258,7 @@ export const catData: CATALOGS[] = [
   { "Nhom": "KyQuy", "NoiDung": "Đã thanh lý", "GiaTri": -1},
   { "Nhom": "KyQuy", "NoiDung": "Đã chuyển thu nhập khác", "GiaTri": 3 },
 
-  { "Nhom": "HTHUC_DBAO_HDONG", "NoiDung": "Ký quỹ sử dụng điện", "GiaTri": 1 },
+  { "Nhom": "HTHUC_DBAO_HDONG", "NoiDung": "Đặt cọc bằng tiền", "GiaTri": 1 },
   { "Nhom": "HTHUC_DBAO_HDONG", "NoiDung": "Bảo lãnh ngân hàng", "GiaTri": 2 },
 
 

@@ -64,7 +64,7 @@ export const NAV: ENVIDB[] =
         { _id: '8', label: 'Báo cáo tháng ĐMT', link: '', api: 'cmis4-bao-cao-dmt', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { _id: '9', label: 'BB chốt ĐMT', link: '', api: 'cmis4-bien-ban-dmt', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { _id: '10', label: 'Ghi chỉ số', link: '', api: 'cmis4-chi-so', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
-        { _id: '11', label: 'Chốt chỉ số đổi giá', link: '', api: 'cmis4-doi-gia', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
+        { _id: '11', label: 'Chốt chỉ số đổi giá - Phúc tra CS', link: '', api: 'cmis4-doi-gia', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { _id: '12', label: 'Nhập chỉ số định kỳ', link: '', api: 'nhap-chi-so-dinh-ky', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { _id: '13', label: 'Đối soát C06', link: '', api: 'cmis4-c06', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'TEN_TRAM'] },
         { _id: '14', label: 'In hợp đồng', link: '', api: 'cmis4-in-hop-dong', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
